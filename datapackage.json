@@ -74,12 +74,12 @@
           },
           {
             "name": "3.5 Female employees as a percentage of total staff",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
             "name": "3.6 Percentage of delivery staff",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
@@ -119,7 +119,7 @@
           },
           {
             "name": "4.7 Number of post offices (permanent and mobile) accepting financial transactions",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -129,7 +129,7 @@
           },
           {
             "name": "4.9 Number of post offices providing public Internet access points",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -204,7 +204,7 @@
           },
           {
             "name": "7.3 Number of letter-boxes",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -224,7 +224,7 @@
           },
           {
             "name": "8.4 Percentage of items delivered through post office boxes",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -259,7 +259,7 @@
           },
           {
             "name": "9.1 Average number of letter-post items posted per inhabitant",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -344,7 +344,7 @@
           },
           {
             "name": "11.1 Domestic and international dispatch, all categories together",
-            "type": "integer",
+            "type": "any",
             "format": "default"
           },
           {
@@ -354,12 +354,12 @@
           },
           {
             "name": "12.1 Number of government payments",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
             "name": "12.2 Number of bills",
-            "type": "string",
+            "type": "any",
             "format": "default"
           },
           {
@@ -380,6 +380,11 @@
           {
             "name": "12.6 Number of payments, international service - receipt",
             "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "12.9 Number of postal savings bank or postal bank accounts",
+            "type": "any",
             "format": "default"
           }
         ]
