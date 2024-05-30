@@ -1,0 +1,412 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "pls-brazil",
+      "path": "data/upuint-pls-brazil.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "1.1 Area of territory (km²)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "1.2 Population (millions)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "1.5 Rate of exchange (national currency for one SDR)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "2.1 Number of licensed, authorized or declared operators",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2.2 Number of staff of all operators (at 31 December)",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2.3 Domestic letter delivery services - number of items",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2.4 Domestic parcel delivery services - number of items",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2.5 Domestic express delivery services - number of items",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "3.1 Total number of staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.2 Number of full-time staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.3 Number of part-time staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.4 Number of posts (in full-time equivalent)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.5 Female employees as a percentage of total staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.6 Percentage of delivery staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "3.7 Percentage of female management staff",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.1 Total number of permanent post offices",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.2 Number of permanent offices staffed by administration officials",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.3 Number of permanent offices staffed by people from outside the administration",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.4 Average area covered by a permanent office (km²)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.5 Average number of inhabitants served by a permanent office",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.6 Number of post offices in rural areas (including mobile post offices)",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "4.7 Number of post offices (permanent and mobile) accepting financial transactions",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "4.8 Number of sorting centres",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.9 Number of post offices providing public Internet access points",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "4.10 Number of permanent post offices connected to an electronic network",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "4.11 Number of permanent post offices using counter automation systems",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "4.12 Number of automated parcel lockers",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "5.1 Operating revenue (SDR)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "5.2 Operating expenditure (SDR)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "5.3 Operating result (SDR)",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "5.4 Net result (SDR)",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "6.1 Percentage of income linked to letter post",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "6.2 Percentage of income linked to parcels and logistics services",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "6.3 Percentage of income linked to postal financial services",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "6.4 Percentage of income linked to other products",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "6.5 Income from philately as a percentage of total income",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "7.1 Average number of collections from boxes per working day in urban areas",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "7.2 Average number of collections from boxes per week in rural areas",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "7.3 Number of letter-boxes",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "8.1 Average number of deliveries per working day in urban areas",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.2 Average number of deliveries per week in rural areas",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "8.3 Number of post office boxes",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.4 Percentage of items delivered through post office boxes",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "8.5 Percentage of the population having mail delivered at home",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.6 Percentage of the population having to collect mail from a postal establishment",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.7 Percentage of the population without postal services",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.8 Domestic quality standard for priority mail",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.9 Domestic quality target for priority mail",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "8.10 Annual performance level",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.1 Average number of letter-post items posted per inhabitant",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "9.2 Number of letter-post items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.3 Number of letter-post items, international service - dispatch",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "9.4 Number of letter-post items, international service - receipt",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "9.5 Number of copies of newspapers, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.6 Total number of advertising items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.7 Number of addressed advertising items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.8 Number of unaddressed advertising items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.9 Number of addressed advertising items, international service - dispatch",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "9.10 Number of hybrid mail items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "9.11 Basic tariff for a domestic priority letter (first weight step)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "10.1 Number of express items, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "10.2 Number of express items, international service - dispatch",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "10.3 Number of express items, international service - receipt",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "10.4 Number of parcels, domestic service",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "10.5 Number of parcels, international service - dispatch",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "10.6 Number of parcels, international service - receipt",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "11.1 Domestic and international dispatch, all categories together",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "11.2 Domestic and international dispatch, all categories together",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "12.1 Number of government payments",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "12.2 Number of bills",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "12.3 Number of money orders",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "12.4 Total number of payments, domestic service",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "12.5 Number of payments, international service - dispatch",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "12.6 Number of payments, international service - receipt",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "UPU_int",
+    "postalservice",
+    "postalunion",
+    "parcels"
+  ],
+  "name": "upuint-pls-brazil",
+  "title": "UPU postal statistics data",
+  "description": "Regional estimates for Brazil of indicators relevant to the Postal service. Note that while this is from a publicly accessible web application, the absence of license or copyright currently suggests that this is NOT open data. We are using it in the context of a UPU hackathon.",
+  "homepage": "http://pls.upu.int/pls/ap/ssp_report.main2020",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "title": "O Lavrovsky",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "https://www.upu.int/en/Copyright",
+      "title": "©2020 Universal Postal Union"
+    }
+  ]
+}
