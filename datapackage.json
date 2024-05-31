@@ -74,12 +74,12 @@
           },
           {
             "name": "3.5 Female employees as a percentage of total staff",
-            "type": "number",
+            "type": "integer",
             "format": "default"
           },
           {
             "name": "3.6 Percentage of delivery staff",
-            "type": "number",
+            "type": "integer",
             "format": "default"
           },
           {
@@ -389,6 +389,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "brazil_geodata_h3_res4",
+      "path": "data/brazil_geodata_h3_res4.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "X",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Y",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "index",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "h3_resolution",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "post_offices_count",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "postal_bank_count",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "road_length_km",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "cell_towers_count",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "population_count",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
     }
   ],
   "keywords": [
@@ -398,7 +452,7 @@
     "parcels"
   ],
   "name": "upuint-pls-brazil",
-  "title": "UPU postal statistics data",
+  "title": "UPU Brazil Postal statistics",
   "description": "Regional estimates for Brazil of indicators relevant to the Postal service. Note that while this is from a publicly accessible web application, the absence of license or copyright currently suggests that this is NOT open data. We are using it in the context of a UPU hackathon.",
   "homepage": "http://pls.upu.int/pls/ap/ssp_report.main2020",
   "version": "0.1.0",
