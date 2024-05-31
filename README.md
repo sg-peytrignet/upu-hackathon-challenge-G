@@ -21,3 +21,9 @@ Open the root folder in Jupyter to explore our notebooks, or launch in dashboard
 `panel serve geopostal.ipynb`
 
 In development, you might find the `--autoreload` parameter useful.
+
+In production, append `--allow-websocket-origin <FQDN>` where FQDN is your full domain name.
+
+# Production
+
+We use [NGINX](https://nginx.org/) to host the demo site. There's an example configuration in `nginx.conf`. 

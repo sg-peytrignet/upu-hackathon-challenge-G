@@ -2,11 +2,12 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 bokeh
-dask-core
+dask[dataframe]
 datashader
 fastapi
 fastparquet
 folium
+geopandas
 hvplot
 nbconvert
 numpy
