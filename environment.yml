@@ -19,6 +19,7 @@ dependencies:
   - blas=1.0=openblas
   - bleach=6.1.0=pyhd8ed1ab_0
   - bokeh=3.4.1=pyhd8ed1ab_0
+  - branca=0.6.0=py312h06a4308_0
   - brotli=1.1.0=hd590300_1
   - brotli-bin=1.1.0=hd590300_1
   - brotli-python=1.1.0=py312h30efb56_1
@@ -46,6 +47,7 @@ dependencies:
   - expat=2.6.2=h6a678d5_0
   - fastapi=0.103.0=py312h06a4308_0
   - fastparquet=2024.2.0=py312ha883a20_0
+  - folium=0.14.0=py312h06a4308_0
   - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
   - font-ttf-inconsolata=2.001=hcb22688_0
   - font-ttf-source-code-pro=2.030=hd3eb1b0_0
