@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - jupyter_bokeh
+  - bokeh
+  - dask
+  - datashader
+  - fastapi
+  - fastparquet
+  - folium
+  - geopandas
+  - hvplot
+  - nbconvert
+  - numpy
+  - pandas
+  - panel
+  - stack_data
+  - starlette
